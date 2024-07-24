@@ -1,40 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import hero from "./assets/hero.svg";
-import company from "./assets/company.svg";
-import instagram from "./assets/Instagram.svg";
+// src/App.js
+import React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <>
-      <div>
-        <img src={hero} alt="Vite + React" />
-        <img src={instagram} alt="Vite + React" />
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <ChakraProvider>
+      <Navbar />
+      <Hero />
+    </ChakraProvider>
   );
-}
+};
 
 export default App;

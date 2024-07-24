@@ -1,19 +1,38 @@
 {
-  "posts": [
+  "projects": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Project Alpha",
+      "description": "A project to develop a new feature.",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Project Beta",
+      "description": "An internal tool for data analysis.",
+      "skills": ["Python", "Django", "PostgreSQL"],
+      "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     }
   ],
-  "comments": [
+  "skills": [
+    {
+      "id": 0,
+      "domain": "Frontend",
+      "tech": ["HTML", "CSS", "JavaScript", "React"],
+      "levels": [90, 60, 80, 70]
+    },
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "domain": "Backend",
+      "tech": ["JavaScript", "Node.js", "Express", "MongoDB"],
+      "levels": [80, 70, 60, 50]
+    },
+    {
+      "id": 2,
+      "domain": "Devops",
+      "tech": ["Linux", "Docker", "Kubernetes", "AWS"],
+      "levels": [70, 60, 50, 40]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
