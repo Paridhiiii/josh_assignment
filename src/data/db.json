@@ -4,7 +4,14 @@
       "id": 1,
       "name": "Project Alpha",
       "description": "A project to develop a new feature.",
-      "skills": ["JavaScript", "React", "Node.js"],
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "HTML"
+      ],
       "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
     },
     {
@@ -12,6 +19,34 @@
       "name": "Project Beta",
       "description": "An internal tool for data analysis.",
       "skills": ["Python", "Django", "PostgreSQL"],
+      "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Project Charlie",
+      "description": "A mobile app for tracking expenses.",
+      "skills": ["React Native", "Expo", "MongoDB"],
+      "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Project Delta",
+      "description": "A project to develop a new feature.",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Project Echo",
+      "description": "An internal tool for data analysis.",
+      "skills": ["Python", "Django", "PostgreSQL"],
+      "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Project Foxtrot",
+      "description": "A mobile app for tracking expenses.",
+      "skills": ["React Native", "Expo", "MongoDB"],
       "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     }
   ],
@@ -33,6 +68,104 @@
       "domain": "Devops",
       "tech": ["Linux", "Docker", "Kubernetes", "AWS"],
       "levels": [70, 60, 50, 40]
+    },
+    {
+      "id": 3,
+      "domain": "Database",
+      "tech": ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+      "levels": [80, 70, 60, 50]
+    },
+    {
+      "id": 4,
+      "domain": "Programming",
+      "tech": ["Python", "JavaScript", "Java", "C++"],
+      "levels": [80, 70, 60, 50]
+    },
+    {
+      "id": 5,
+      "domain": "Testing",
+      "tech": ["Jest", "Mocha", "Chai", "Selenium"],
+      "levels": [70, 60, 50, 40]
+    },
+    {
+      "id": 6,
+      "domain": "Others",
+      "tech": ["Git", "Jira", "Confluence", "Slack"],
+      "levels": [90, 80, 70, 60]
+    },
+    {
+      "id": 8,
+      "domain": "New Domain",
+      "tech": ["Tech1", "Tech2"],
+      "levels": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 9,
+      "domain": "New Domain",
+      "tech": ["Tech1", "Tech2"],
+      "levels": ["Beginner", "Intermediate", "Advanced"]
+    },
+    {
+      "id": 10,
+      "domain": "New Domain",
+      "tech": ["Tech1", "Tech2"],
+      "levels": ["Beginner", "Intermediate", "Advanced"]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 0,
+      "name": "Jane",
+      "photo": "https://www.w3schools.com/w3images/avatar6.png",
+      "designation": "Software Engineer",
+      "Rating": 4,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+    },
+    {
+      "id": 1,
+      "name": "Joshua",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "designation": "Software Engineer",
+      "Rating": 5,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "photo": "https://www.w3schools.com/w3images/avatar1.png",
+      "designation": "Software Engineer",
+      "Rating": 5,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+    },
+    {
+      "id": 3,
+      "name": "Joseph",
+      "photo": "https://www.w3schools.com/w3images/avatar6.png",
+      "designation": "Software Engineer",
+      "Rating": 4,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+    },
+    {
+      "id": 4,
+      "name": "Keith",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "designation": "Software Engineer",
+      "Rating": 5,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+    },
+    {
+      "id": 5,
+      "name": "Lio",
+      "photo": "https://www.w3schools.com/w3images/avatar1.png",
+      "designation": "Software Engineer",
+      "Rating": 5,
+      "Heading": "Great Work",
+      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
     }
   ]
 }

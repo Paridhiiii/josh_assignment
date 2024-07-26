@@ -3,7 +3,7 @@ import hero from "../assets/hero.svg"; // Adjust the path if necessary
 
 const Hero = () => {
   return (
-    <Box bg="gray.50" p={8} w="100vw">
+    <Box bg="white.100" p={8} w="100vw">
       <Flex
         direction={{ base: "column", md: "row" }}
         align="center"
