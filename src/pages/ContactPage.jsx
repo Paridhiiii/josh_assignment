@@ -1,5 +1,12 @@
-function Contact() {
-  return <div></div>;
-}
+import { Box, Text } from "@chakra-ui/react";
 
-export default Contact;
+const ContactPage = () => {
+  return (
+    <Box p={4}>
+      <Text fontSize="2xl">Contact Us</Text>
+      {/* Add your contact page content here */}
+    </Box>
+  );
+};
+
+export default ContactPage;

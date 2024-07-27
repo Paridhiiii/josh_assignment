@@ -55,7 +55,7 @@ const Footer = () => {
           {/* Quick Links */}
           <GridItem>
             <VStack align="start">
-              <Heading size="sm" mb={2}>
+              <Heading size="md" mb={2}>
                 Quick Links
               </Heading>
               <Link href="#">Home</Link>
@@ -69,7 +69,7 @@ const Footer = () => {
           {/* Portfolio */}
           <GridItem>
             <VStack align="start">
-              <Heading size="sm" mb={2}>
+              <Heading size="md" mb={2}>
                 Portfolio
               </Heading>
               <Link href="#">Frontend Development</Link>
@@ -83,7 +83,7 @@ const Footer = () => {
           {/* Connect */}
           <GridItem>
             <VStack align="start">
-              <Heading size="sm" mb={2}>
+              <Heading size="md" mb={2}>
                 Connect
               </Heading>
               <Link href="#">

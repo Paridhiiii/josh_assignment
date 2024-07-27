@@ -92,6 +92,18 @@
       "domain": "Others",
       "tech": ["Git", "Jira", "Confluence", "Slack"],
       "levels": [90, 80, 70, 60]
+    },
+    {
+      "id": 1722058568233,
+      "domain": "Something",
+      "tech": ["Some", "Thing"],
+      "levels": ["50", "50"]
+    },
+    {
+      "id": 1722058719860,
+      "domain": "SomeThing",
+      "tech": ["Some"],
+      "levels": ["50"]
     }
   ],
   "recommendations": [

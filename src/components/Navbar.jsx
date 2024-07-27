@@ -1,7 +1,7 @@
 import { Box, Flex, Link, ButtonGroup, Image, Spacer } from "@chakra-ui/react";
 import logo from "../assets/logo.svg";
 
-const Navbar = () => {
+const Navbar = ({ onPageChange }) => {
   return (
     <Box
       bg="white"
@@ -33,7 +33,8 @@ const Navbar = () => {
               py={2}
               rounded="md"
               _hover={{ textDecoration: "none", bg: "gray.200" }}
-              href={`#${link.toLowerCase()}`}
+              href="#"
+              onClick={() => onPageChange(link.toLowerCase())}
             >
               {link}
             </Link>

@@ -1,14 +1,29 @@
-// src/pages/SkillsPage.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Box, Container, Grid, Heading, Text, Button } from "@chakra-ui/react";
-import useFetch from "../hooks/useFetch";
 import SkillCard from "../components/SkillCard";
+import AddSkillModal from "../components/AddSkillModal";
+import { fetchSkills } from "../api/backendApi";
 
 const SkillsPage = () => {
-  const { data: skills, loading, error } = useFetch("skills");
+  const [skills, setSkills] = useState([]);
+  const [isModalOpen, setModalOpen] = useState(false);
 
-  if (loading) return <Text>Loading...</Text>;
-  if (error) return <Text>Error loading skills</Text>;
+  const loadSkills = async () => {
+    try {
+      const data = await fetchSkills();
+      setSkills(data);
+    } catch (error) {
+      console.error("Error fetching skills:", error);
+    }
+  };
+
+  useEffect(() => {
+    loadSkills(); // Fetch skills on component mount
+  }, []);
+
+  const handleAddSkill = async () => {
+    await loadSkills(); // Re-fetch skills after adding a new one
+  };
 
   return (
     <Container maxW="container.xl" py={8}>
@@ -25,8 +40,16 @@ const SkillsPage = () => {
         ))}
       </Grid>
       <Box textAlign="center" mt={8}>
-        <Button colorScheme="yellow">Add Skill</Button>
+        <Button colorScheme="yellow" onClick={() => setModalOpen(true)}>
+          Add Skill
+        </Button>
       </Box>
+
+      <AddSkillModal
+        isOpen={isModalOpen}
+        onClose={() => setModalOpen(false)}
+        onSkillAdded={handleAddSkill} // Pass function to handle adding skill
+      />
     </Container>
   );
 };
