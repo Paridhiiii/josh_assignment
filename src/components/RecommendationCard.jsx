@@ -11,6 +11,7 @@ const RecommendationCard = ({ recommendation }) => {
       boxShadow="md"
       p={4}
       m={2}
+      bg="white"
     >
       <Box mb={2}>
         {[...Array(recommendation.Rating)].map((_, index) => (

@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
       borderRadius="lg"
       overflow="hidden"
       boxShadow="md"
+      bg="white"
     >
       <Image src={project.image} alt={project.name} />
 
@@ -21,7 +22,7 @@ const ProjectCard = ({ project }) => {
           fontSize="xl"
           lineHeight="tight"
           isTruncated
-          fontFamily="Inter"
+          fontFamily="Interbold"
         >
           {project.name}
         </Box>

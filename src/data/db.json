@@ -92,24 +92,6 @@
       "domain": "Others",
       "tech": ["Git", "Jira", "Confluence", "Slack"],
       "levels": [90, 80, 70, 60]
-    },
-    {
-      "id": 8,
-      "domain": "New Domain",
-      "tech": ["Tech1", "Tech2"],
-      "levels": ["Beginner", "Intermediate", "Advanced"]
-    },
-    {
-      "id": 9,
-      "domain": "New Domain",
-      "tech": ["Tech1", "Tech2"],
-      "levels": ["Beginner", "Intermediate", "Advanced"]
-    },
-    {
-      "id": 10,
-      "domain": "New Domain",
-      "tech": ["Tech1", "Tech2"],
-      "levels": ["Beginner", "Intermediate", "Advanced"]
     }
   ],
   "recommendations": [
@@ -120,7 +102,7 @@
       "designation": "Software Engineer",
       "Rating": 4,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
       "id": 1,
@@ -129,7 +111,7 @@
       "designation": "Software Engineer",
       "Rating": 5,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
       "id": 2,
@@ -138,7 +120,7 @@
       "designation": "Software Engineer",
       "Rating": 5,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
       "id": 3,
@@ -147,7 +129,7 @@
       "designation": "Software Engineer",
       "Rating": 4,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
       "id": 4,
@@ -156,7 +138,7 @@
       "designation": "Software Engineer",
       "Rating": 5,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
       "id": 5,
@@ -165,7 +147,7 @@
       "designation": "Software Engineer",
       "Rating": 5,
       "Heading": "Great Work",
-      "Description": "Paridhi is a great software engineer. He has a great understanding of the software development life cycle and has a great understanding of various technologies. He is a great team player and has a great attitude towards work. He is a great asset to any team."
+      "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     }
   ]
 }
