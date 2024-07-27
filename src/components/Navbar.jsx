@@ -32,7 +32,7 @@ const Navbar = ({ onPageChange }) => {
               px={3}
               py={2}
               rounded="md"
-              _hover={{ textDecoration: "none", bg: "gray.200" }}
+              _hover={{ textDecoration: "none", bg: "yellow.300" }}
               href="#"
               onClick={() => onPageChange(link.toLowerCase())}
             >

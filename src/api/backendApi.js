@@ -45,4 +45,21 @@ const postSkill = async (skill) => {
   }
 };
 
-export { fetchProjects, fetchSkills, fetchRecommendations, postSkill };
+// Post a new User
+const postUser = async (user) => {
+  try {
+    const response = await apiclient.post("/user", user);
+    return response.data;
+  } catch (error) {
+    console.error("Error posting skill:", error);
+    throw error;
+  }
+};
+
+export {
+  fetchProjects,
+  fetchSkills,
+  fetchRecommendations,
+  postSkill,
+  postUser,
+};

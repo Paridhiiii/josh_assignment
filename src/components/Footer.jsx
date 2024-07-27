@@ -33,21 +33,21 @@ const Footer = () => {
           </Box>
         </Stack>
 
-        <Grid templateColumns="repeat(4, 1fr)" gap={6} mt={6}>
+        <Grid templateColumns="repeat(4, 1fr)" gap={60} mt={6}>
           {/* Ratings */}
           <GridItem>
             <Stack spacing={6}>
               <Box textAlign="center">
                 <Image src={loren} alt="Rating Logo" />
-                <Text>4.5/5 Rating On Lorem</Text>
+                <Text>4.5/5 On Lorem</Text>
               </Box>
               <Box textAlign="center">
                 <Image src={lspm} alt="Rating Logo" />
-                <Text>9/10 Rating On Ipsum</Text>
+                <Text>9/10 On Ipsum</Text>
               </Box>
               <Box textAlign="center">
                 <Image src={dorel} alt="Rating Logo" />
-                <Text>4.5/5 Rating On Dorel</Text>
+                <Text>4.5/5 On Dorel</Text>
               </Box>
             </Stack>
           </GridItem>

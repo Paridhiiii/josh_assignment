@@ -92,18 +92,6 @@
       "domain": "Others",
       "tech": ["Git", "Jira", "Confluence", "Slack"],
       "levels": [90, 80, 70, 60]
-    },
-    {
-      "id": 1722058568233,
-      "domain": "Something",
-      "tech": ["Some", "Thing"],
-      "levels": ["50", "50"]
-    },
-    {
-      "id": 1722058719860,
-      "domain": "SomeThing",
-      "tech": ["Some"],
-      "levels": ["50"]
     }
   ],
   "recommendations": [
@@ -160,6 +148,22 @@
       "Rating": 5,
       "Heading": "Great Work",
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subject": "Software Engineer in requirement",
+      "message": "I am looking for a software engineer to work on a project. I have experience in Java and Python. I am looking for a team player and a good understanding of software development life cycle."
+    },
+    {
+      "id": "d623",
+      "name": "John",
+      "email": "Something@gmail.com",
+      "subject": "see you",
+      "message": "here"
     }
   ]
 }

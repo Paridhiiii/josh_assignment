@@ -1,10 +1,16 @@
-import { Box, Text } from "@chakra-ui/react";
+// src/pages/ContactPage.js
+import React from "react";
+import { Box, Grid } from "@chakra-ui/react";
+import ContactForm from "../components/ContactForm";
+import ContactInfo from "../components/ContactInfo";
 
 const ContactPage = () => {
   return (
-    <Box p={4}>
-      <Text fontSize="2xl">Contact Us</Text>
-      {/* Add your contact page content here */}
+    <Box p={8}>
+      <Grid templateColumns="2fr 1fr" gap={6}>
+        <ContactForm />
+        <ContactInfo />
+      </Grid>
     </Box>
   );
 };
