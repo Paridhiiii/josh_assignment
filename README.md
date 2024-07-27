@@ -76,6 +76,10 @@ Currently, two official plugins are available:
 
 <video width="640" height="360" controls>
 
+
+https://github.com/user-attachments/assets/417d9743-879e-4384-8f2a-4ae10be2f723
+
+
   <source src="./video/sample.gif" type="video/mp4">
       Your browser does not support the video tag.
 </video>
