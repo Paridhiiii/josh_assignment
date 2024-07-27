@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Project Alpha",
       "description": "A project to develop a new feature.",
       "skills": [
@@ -15,88 +15,190 @@
       "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Project Beta",
       "description": "An internal tool for data analysis.",
-      "skills": ["Python", "Django", "PostgreSQL"],
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
       "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Project Charlie",
       "description": "A mobile app for tracking expenses.",
-      "skills": ["React Native", "Expo", "MongoDB"],
+      "skills": [
+        "React Native",
+        "Expo",
+        "MongoDB"
+      ],
       "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Project Delta",
       "description": "A project to develop a new feature.",
-      "skills": ["JavaScript", "React", "Node.js"],
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
       "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Project Echo",
       "description": "An internal tool for data analysis.",
-      "skills": ["Python", "Django", "PostgreSQL"],
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
       "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Project Foxtrot",
       "description": "A mobile app for tracking expenses.",
-      "skills": ["React Native", "Expo", "MongoDB"],
+      "skills": [
+        "React Native",
+        "Expo",
+        "MongoDB"
+      ],
       "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
     }
   ],
   "skills": [
     {
-      "id": 0,
+      "id": "0",
       "domain": "Frontend",
-      "tech": ["HTML", "CSS", "JavaScript", "React"],
-      "levels": [90, 60, 80, 70]
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ],
+      "levels": [
+        90,
+        60,
+        80,
+        70
+      ]
     },
     {
-      "id": 1,
+      "id": "1",
       "domain": "Backend",
-      "tech": ["JavaScript", "Node.js", "Express", "MongoDB"],
-      "levels": [80, 70, 60, 50]
+      "tech": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "levels": [
+        80,
+        70,
+        60,
+        50
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "domain": "Devops",
-      "tech": ["Linux", "Docker", "Kubernetes", "AWS"],
-      "levels": [70, 60, 50, 40]
+      "tech": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "levels": [
+        70,
+        60,
+        50,
+        40
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "domain": "Database",
-      "tech": ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
-      "levels": [80, 70, 60, 50]
+      "tech": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis"
+      ],
+      "levels": [
+        80,
+        70,
+        60,
+        50
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "domain": "Programming",
-      "tech": ["Python", "JavaScript", "Java", "C++"],
-      "levels": [80, 70, 60, 50]
+      "tech": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++"
+      ],
+      "levels": [
+        80,
+        70,
+        60,
+        50
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "domain": "Testing",
-      "tech": ["Jest", "Mocha", "Chai", "Selenium"],
-      "levels": [70, 60, 50, 40]
+      "tech": [
+        "Jest",
+        "Mocha",
+        "Chai",
+        "Selenium"
+      ],
+      "levels": [
+        70,
+        60,
+        50,
+        40
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "domain": "Others",
-      "tech": ["Git", "Jira", "Confluence", "Slack"],
-      "levels": [90, 80, 70, 60]
+      "tech": [
+        "Git",
+        "Jira",
+        "Confluence",
+        "Slack"
+      ],
+      "levels": [
+        90,
+        80,
+        70,
+        60
+      ]
+    },
+    {
+      "id": 1722093671511,
+      "domain": "AGILE",
+      "tech": [
+        "JIRA",
+        "TRELLO"
+      ],
+      "levels": [
+        "50",
+        "60"
+      ]
     }
   ],
   "recommendations": [
     {
-      "id": 0,
+      "id": "0",
       "name": "Jane",
       "photo": "https://www.w3schools.com/w3images/avatar6.png",
       "designation": "Software Engineer",
@@ -105,7 +207,7 @@
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "Joshua",
       "photo": "https://www.w3schools.com/w3images/avatar2.png",
       "designation": "Software Engineer",
@@ -114,7 +216,7 @@
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "John",
       "photo": "https://www.w3schools.com/w3images/avatar1.png",
       "designation": "Software Engineer",
@@ -123,7 +225,7 @@
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Joseph",
       "photo": "https://www.w3schools.com/w3images/avatar6.png",
       "designation": "Software Engineer",
@@ -132,7 +234,7 @@
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Keith",
       "photo": "https://www.w3schools.com/w3images/avatar2.png",
       "designation": "Software Engineer",
@@ -141,7 +243,7 @@
       "Description": "Paridhi is a great software engineer. She has a great understanding of the software development life cycle and has a great understanding of various technologies. She is a great team player and has a great attitude towards work. She is a great asset to any team."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lio",
       "photo": "https://www.w3schools.com/w3images/avatar1.png",
       "designation": "Software Engineer",
@@ -152,7 +254,7 @@
   ],
   "user": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe",
       "email": "john@example.com",
       "subject": "Software Engineer in requirement",
@@ -164,6 +266,13 @@
       "email": "Something@gmail.com",
       "subject": "see you",
       "message": "here"
+    },
+    {
+      "id": "1b16",
+      "name": "jOHN",
+      "email": "DOE@GMAIL.COM",
+      "subject": "sOMETHING",
+      "message": "HI"
     }
   ]
 }

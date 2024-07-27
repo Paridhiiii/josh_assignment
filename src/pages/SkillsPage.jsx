@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Box, Container, Grid, Heading, Text, Button } from "@chakra-ui/react";
 import SkillCard from "../components/SkillCard";
 import AddSkillModal from "../components/AddSkillModal";
@@ -18,11 +18,11 @@ const SkillsPage = () => {
   };
 
   useEffect(() => {
-    loadSkills(); // Fetch skills on component mount
+    loadSkills();
   }, []);
 
   const handleAddSkill = async () => {
-    await loadSkills(); // Re-fetch skills after adding a new one
+    await loadSkills();
   };
 
   return (
@@ -48,7 +48,7 @@ const SkillsPage = () => {
       <AddSkillModal
         isOpen={isModalOpen}
         onClose={() => setModalOpen(false)}
-        onSkillAdded={handleAddSkill} // Pass function to handle adding skill
+        onSkillAdded={handleAddSkill}
       />
     </Container>
   );

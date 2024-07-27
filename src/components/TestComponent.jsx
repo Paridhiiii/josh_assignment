@@ -1,5 +1,3 @@
-// ExampleComponent.js
-import React from "react";
 import useFetch from "../hooks/useFetch";
 
 const ExampleComponent = () => {

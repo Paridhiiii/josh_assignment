@@ -5,7 +5,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import RecommendationsPage from "./pages/RecommendationsPage";
 import SkillsPage from "./pages/SkillsPage";
 import ContactPage from "./pages/ContactPage";
-import EducationPage from "./pages/EducationPage"; // Ensure you have this page component
+import EducationPage from "./pages/EducationPage";
 import Footer from "./components/Footer";
 import { useState } from "react";
 

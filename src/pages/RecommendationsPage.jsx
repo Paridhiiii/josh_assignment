@@ -1,5 +1,3 @@
-// src/pages/Recommendations.js
-import React from "react";
 import { Box, Heading, Text, Container, Center } from "@chakra-ui/react";
 import CustomSlider from "../components/CustomSlider";
 import useFetch from "../hooks/useFetch";

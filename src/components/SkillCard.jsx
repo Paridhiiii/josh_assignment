@@ -1,5 +1,3 @@
-// src/components/SkillCard.js
-import React from "react";
 import { Box, Heading, Progress, Text, VStack, Flex } from "@chakra-ui/react";
 
 const SkillCard = ({ domain, tech, levels }) => {

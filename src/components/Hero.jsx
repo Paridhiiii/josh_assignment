@@ -1,5 +1,5 @@
 import { Box, Text, Flex, Image, Button } from "@chakra-ui/react";
-import hero from "../assets/hero.svg"; // Adjust the path if necessary
+import hero from "../assets/hero.svg";
 
 const Hero = () => {
   return (

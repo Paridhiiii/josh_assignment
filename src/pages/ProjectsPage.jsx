@@ -1,4 +1,3 @@
-// src/pages/ProjectsPage.js
 import { Box, SimpleGrid, Heading, Text, Stack } from "@chakra-ui/react";
 import useFetch from "../hooks/useFetch";
 import ProjectCard from "../components/ProjectCard";

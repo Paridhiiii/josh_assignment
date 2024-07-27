@@ -1,4 +1,3 @@
-// src/api/backendAPI.js
 import { apiclient } from "./apiClient";
 
 // Fetch all projects

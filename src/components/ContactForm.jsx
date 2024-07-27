@@ -34,7 +34,6 @@ const ContactForm = () => {
 
     try {
       await postUser(userData);
-      // Clear form fields after successful submission
       setName("");
       setEmail("");
       setSubject("");

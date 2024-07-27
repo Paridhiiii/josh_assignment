@@ -1,6 +1,5 @@
 // src/components/RecommendationCard.js
-import React from "react";
-import { Box, Text, Image, Stack, Avatar } from "@chakra-ui/react";
+import { Box, Text, Stack, Avatar } from "@chakra-ui/react";
 
 const RecommendationCard = ({ recommendation }) => {
   return (

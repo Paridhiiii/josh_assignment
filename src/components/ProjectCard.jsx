@@ -1,4 +1,4 @@
-import "@fontsource/inter"; // Defaults to weight 400
+import "@fontsource/inter";
 import { Box, Image, Text, Badge, Flex } from "@chakra-ui/react";
 
 const ProjectCard = ({ project }) => {

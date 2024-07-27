@@ -1,5 +1,3 @@
-// src/pages/ContactPage.js
-import React from "react";
 import { Box, Grid } from "@chakra-ui/react";
 import ContactForm from "../components/ContactForm";
 import ContactInfo from "../components/ContactInfo";
